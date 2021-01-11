@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1. shrink-to-fit=no"
+    />
+    <title>Bali - contact</title>
+    <link rel="icon" href="images/coconut-tree.svg" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container-fluid">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-sm">
+        <a class="navbar-brand text-white" href="index.html">Bali</a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="facts.html">Facts</a>
+          </li>
+          <li class="nav-item modal-li">
+            <a
+              class="nav-link disabled"
+              data-toggle="modal"
+              data-target="#myModal"
+              >Things to Do</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link text-white dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Contact</a
+            >
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="contact.html">About Bali</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="contact.html">About You</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <input
+            class="form-control mr-sm-2 mt-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-dark text-light mt-2" type="submit">
+            Search
+          </button>
+        </form>
+      </nav>
+      <!-- end of navbar -->
+
+      <section class="container">
+        <article class="form-row justify-content-center mt-5">
+          <!-- form -->
+          <section class="col-md-6 bg-info">
+            <div class="col-sm-12">
+              <form>
+                <div class="form-group">
+                  <label for="TextName">Name</label>
+                  <input
+                    id="TextName"
+                    type="text"
+                    name="Name"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="TextSurname">Surname</label>
+                  <input id="TextSurname" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label for="Email">Email</label>
+                  <input id="Email" type="email" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label for="Pass">Password</label>
+                  <input id="Pass" type="password" class="form-control" />
+                </div>
+                <fieldset class="checkbox pl-1">
+                  <legend class="col-form-label ml-n1 pt-0">
+                    What is the occasion of your trip?
+                  </legend>
+                  <div class="form-check pl-3">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="radio-btn"
+                      id="radio1"
+                      value="option1"
+                      checked
+                    />
+                    <label class="form-check-label" for="radio1">
+                      Honeymoon
+                    </label>
+                  </div>
+                  <div class="form-check pl-3 pt-2">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="radio-btn"
+                      id="radio2"
+                      value="option2"
+                    />
+                    <label class="form-check-label" for="radio2">
+                      Anniversary
+                    </label>
+                  </div>
+                  <div class="form-check pl-3 pt-2">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="radio-btn"
+                      id="radio3"
+                      value="option3"
+                    />
+                    <label class="form-check-label" for="radio3"> Other </label>
+                  </div>
+                  <div class="form-row pt-2">
+                    <label for="select">How many travelers:</label>
+                    <select class="selectpicker form-control" id="select">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                  </div>
+                  <div class="form-group row pt-3">
+                    <div class="col-sm-4">
+                      <div class="form-check pl-3">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="check"
+                        />
+                        <label class="form-check-label" for="check">
+                          Remember me
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-sm-10">
+                      <button type="submit" class="btn btn-primary ml-n1">
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+            <!-- end of form -->
+          </section>
+          <section class="col-md-6 container-md bg-dark text-warning p-3">
+            <h2>Meet Our Team</h2>
+            <hr class="bg-warning" style="border: 2px solid" />
+            <h4>
+              We believe everyone should visit Bali at least once in their
+              lifetime.
+            </h4>
+            <hr class="bg-warning" style="border: 2px solid" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              molestiae vero quidem consequatur ex, dolore debitis quo ab,
+              dolores pariatur voluptas ipsam placeat deleniti nemo. Quos ex
+              repellat vero voluptates soluta fugiat sapiente, optio laboriosam
+              ut eveniet corporis explicabo similique, nostrum amet, hic
+              provident expedita? Blanditiis officiis sint consequuntur totam,
+              amet reiciendis eius minima, saepe corrupti aperiam dolor
+              perferendis, non velit dolorem dicta ea fugiat vero? Dolor nostrum
+              pariatur numquam earum ipsum laboriosam nulla, reiciendis facilis
+              debitis minima cupiditate quasi repellendus in adipisci atque
+              sequi, impedit ullam, aliquid veritatis iure et dolore dolorum at
+              asperiores. Eligendi at suscipit quo maiores!
+            </p>
+            <br />
+            <br />
+            <br />
+          </section>
+        </article>
+      </section>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
